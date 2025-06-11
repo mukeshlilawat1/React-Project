@@ -1,32 +1,32 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-const Sports = (props) => {
+const Popular = (props) => {
     return (
         <Container>
-            <h4>Non-Stop Sports</h4>
+            <h4>Popular Movie</h4>
             <Content>
                 <Wrap>
                     <Link to='/'>
-                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9602/1749472609602-h" alt="" />
+                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5170/1738735795170-h" alt="" />
                     </Link>
                 </Wrap>
 
                 <Wrap>
                     <Link to='/'>
-                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8891/1749486018891-h" alt="" />
+                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_128/sources/r1/cms/prod/5170/675170-h" alt="" />
                     </Link>
                 </Wrap>
 
                 <Wrap>
                     <Link to='/'>
-                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1634/1749465591634-h" alt="" />
+                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9382/1749577759382-h" alt="" />
                     </Link>
                 </Wrap>
 
                 <Wrap>
                     <Link to='/'>
-                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/719/1749465130719-h" alt="" />
+                        <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2842/1749573822842-h" alt="" />
                     </Link>
                 </Wrap>
             </Content>
@@ -85,4 +85,4 @@ const Wrap = styled.div`
 `;
 
 
-export default Sports;
+export default Popular;

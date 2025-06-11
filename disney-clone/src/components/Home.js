@@ -5,6 +5,8 @@ import Recommands from './Recommends';
 import NewDisney from './NewDisney';
 import Sports from './Sports';
 import Originals from './Originals';
+import Popular from './Popular';
+import Treading from './Treading';
 
 
 
@@ -14,8 +16,10 @@ const Home = (props) => {
         <Viewers />
         <Recommands />
         <NewDisney />
+        <Popular />
         <Sports />
         <Originals />
+        <Treading />
     </Container>
     );
 };
